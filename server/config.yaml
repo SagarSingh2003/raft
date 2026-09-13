@@ -1,1 +1,12 @@
-
+nodes :
+  - address : "localhost:3001"
+    id : "node1"
+  - address : "localhost:3002"
+    id : "node2"
+  - address : "localhost:3003"
+    id : "node3"
+  - address : "localhost:3004"
+    id : "node4"
+  - address : "localhost:3005"
+    id : "node5"
+totalNodes : 5

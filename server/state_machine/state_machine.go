@@ -34,6 +34,7 @@ type StateMachine struct {
 	State            StateT
 	Mu               sync.Mutex
 	LastAppliedIndex int
+	SmErrs           map[string]bool
 }
 
 // This will return last_applied after applying the logs to SM or send an error
